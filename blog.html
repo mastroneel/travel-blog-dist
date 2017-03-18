@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <!-- Mobile menu -->
+        <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
+          <ul class="vertical menu" data-accordion-menu>
+            <li><a class="first-option" href="index.html">HOME</a></li><hr>
+            <li><a href="photo-gallery.html">PHOTOS</a></li><hr>
+            <li><a href="blog.html">BLOG</a></li><hr>
+            <li><a href="about.html">ABOUT</a></li><hr>
+            <li><a href="contact.html">CONTACT</a></li>  
+          </ul>
+        </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+        <!-- Page content -->
+        
+
+          <!-- Nav desktop -->
+          <script>
+          $(document).scroll(function() {
+            var dHeight = $(this).height()/20 -$(window).height()/20;
+            if (dHeight >= $(this).scrollTop()) {
+            $('.nav').css('background', 'rgba(255, 255, 255,' + $(this).scrollTop() / dHeight + ')');
+              }
+            });
+          </script>
+
+          
+          <div class="nav nav-desktop">
+            <div class="row">
+              <div class="large-4 medium-4 columns show-for-medium">
+                <p> </p>
+              </div>
+              <!-- Nav mobile -->
+              <div class="small-4 columns show-for-small-only">
+                <button class="button mobile-menu-button" type="button" data-open="mobile-menu"><img class="hamburger-icon" src="assets/img/hamburger-icon.png"></button>
+              </div>
+              <div class="large-4 medium-4 columns">
+                <p> </p>
+              </div>
+              <div class="large-4 medium-4 columns show-for-medium">
+                <ul class="nav-desktop-menu">
+                  <li><a class="text" href="index.html">HOME</a></li>
+                  <li><a class="text" href="photo-gallery.html">PHOTOS</a></li>
+                  <li><a class="text" href="blog.html">BLOG</a></li>
+                  <li><a class="text" href="about.html">ABOUT</a></li>
+                </ul>  
+              </div>
+            </div>
+          </div>
+   
+
+    <div class="row blog-header">
+    	<div class="medium-12 large-12 columns">
+    		<h1>Blog</h1>
+    		<hr>
+    		<p>Lorem ipsum dolor sit amet.</p>
+    	</div>
+    </div>
+    
+    <div class="row blog-row">
+    	<div class="medium-6 large-6 columns">
+    		<div class="card">
+      			<a href="taiwan-blog.html"><img src="assets/img/taiwan-1.jpg"></a>
+      			<div class="card-section">
+        			<h5>March 15, 2017</h5>
+        			<h4>Taiwan</h4>
+        			<hr>
+        			<br>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed numquam accusantium nihil ea quaerat, libero, vel possimus similique deleniti veritatis voluptas earum ex explicabo rerum dolor nesciunt est enim amet...</p>
+        			<a class="read-more" href="taiwan-blog.html">Read more</a>
+      			</div>
+    		</div>
+    		<div class="card">
+      			<a href="prague-blog.html"><img src="assets/img/prague-1.jpg"></a>
+      			<div class="card-section">
+      				<h5>March 15, 2017</h5>
+        			<h4>Prague</h4>
+        			<hr>
+        			<br>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam provident, nihil molestias nisi, facere reprehenderit vero esse consequuntur a distinctio voluptatum pariatur corporis impedit, eius. Nesciunt veniam reiciendis ad libero...</p>
+        			<a class="read-more" href="prague-blog.html">Read more</a>
+      			</div>
+    		</div>
+    		<div class="card">
+      			<a href="thailand-blog.html"><img src="assets/img/thailand-boat-1.png"></a>
+      			<div class="card-section">
+      				<h5>March 15, 2017</h5>
+        			<h4>Thailand</h4>
+        			<hr>
+        			<br>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In neque ipsum, natus dignissimos id, quasi fuga rerum, consectetur ea culpa quia quod rem. Nisi reprehenderit quam, veniam inventore fugiat officiis...</p>
+        			<a class="read-more" href="thailand-blog.html">Read more</a>
+      			</div>
+    		</div>
+    	</div>
+    	<div class="medium-6 large-6 columns">
+    		<div class="card">
+      			<a href="italy-blog.html"><img src="assets/img/italy-1.jpg"></a>
+      			<div class="card-section">
+      				<h5>March 15, 2017</h5>
+        			<h4>Italy</h4>
+        			<hr>
+        			<br>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae odit totam labore eaque nulla eum. Voluptatum, eligendi quidem delectus sint iure impedit dolorem, aperiam dignissimos ullam autem blanditiis alias, excepturi...</p>
+        			<a class="read-more" href="italy-blog.html">Read more</a>
+      			</div>
+    		</div>
+    		<div class="card">
+      			<a href="south-africa-blog.html"><img src="assets/img/south-africa-1.jpg"></a>
+      			<div class="card-section">
+      				<h5>March 15, 2017</h5>
+        			<h4>South Africa</h4>
+        			<hr>
+        			<br>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum explicabo, voluptatum, sunt ratione nisi nobis distinctio quo accusamus voluptatem optio iusto culpa? Nostrum, sapiente eligendi nemo ullam distinctio ratione, iste...</p>
+        			<a class="read-more" href="south-africa-blog.html">Read more</a>
+      			</div>
+    		</div>
+    	</div>
+    </div>
+
+
+
+  <div id="footer">
+    <div class="row">
+      <div class="medium-6 large-6 columns">
+        <p> </p>
+      </div>
+      <div class="medium-6 large-6 columns">
+        <ul>
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

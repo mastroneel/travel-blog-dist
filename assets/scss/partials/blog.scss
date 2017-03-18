@@ -1,0 +1,178 @@
+
+// *****************
+// BLOG ARCHIVE PAGE
+// *****************
+
+.blog-header {
+	padding-top: 18vh;
+	padding-bottom: 10vh;
+	text-align: center;
+	h1 {
+		font-family: Harmattan;
+		font-size: 5em;
+		font-weight: bold;
+	}
+	p {
+		font-style: italic;
+	}
+	hr {
+		width: 10vw;
+		margin-top: 0;
+	}
+}
+
+.blog-row {
+	padding-bottom: 18vh;
+	.card {
+		border: none;
+		margin-top: 5vh;
+		img {
+			opacity: 0.9;
+		}
+		h5, h4, p, .read-more {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		h5 {
+			font-family: Harmattan;
+			font-size: 1em;
+			font-style: italic;
+		}
+		h4 {
+			font-family: Harmattan;
+			font-size: 2em;
+			font-weight: bold;
+		}
+		hr {
+			margin-top: 0;
+			width: 10vw;
+			float: left;
+			margin-left: 10px;
+		}
+		p {
+			font-size: 1.1em;
+		}
+		.read-more {
+			font-size: 1.1em;
+		}
+	}
+}
+
+// **********
+// BLOG POSTS
+// **********
+
+.blog-post-row {
+	padding-top: 18vh;
+	.card {
+		max-width: 1040px;
+		border: none;
+		margin-top: 5vh;
+		margin: 0 auto;
+		padding-bottom: 7vh;
+		.card-section {
+			width: 100%;
+		}
+		img {
+			opacity: 0.9;
+		}
+		h5, h4, p, .read-more {
+			padding-left: 25px;
+			padding-right: 50px;
+		}
+		h5 {
+			font-family: Harmattan;
+			font-size: 1em;
+			font-style: italic;
+		}
+		h4 {
+			color: #000;
+			font-family: Harmattan;
+			font-size: 2em;
+			font-weight: bold;
+		}
+		hr {
+			margin-top: 0;
+			width: 10vw;
+			float: left;
+			margin-left: 25px;
+		}
+		p {
+			font-size: 1.1em;
+		}
+		.read-more {
+			font-size: 1.1em;
+		}
+		.suggestions {
+			padding-top: 15vh;
+			padding-left: 3vw;
+			padding-right: 3vw;
+			h1 {
+				font-family: Harmattan;
+				font-size: 1.8em;
+				text-align: center;
+				font-weight: bold;
+			}
+			.suggested-post {
+				img {
+					text-align: center;
+					width: 20vw;
+				}
+				h1 {
+					color: #000;
+					text-align: left;
+					margin-left: 1vw;
+					margin-top: 1vh;
+				}
+			}
+		}
+	}
+}
+
+.comment-row {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 12vh;
+	padding-bottom: 18vh;
+	h1 {
+		padding-left: 20vw;
+		font-family: Harmattan;
+		font-size: 1.5em;
+	}
+	input {
+		padding-top: 15px;
+		padding-bottom: 30vh;
+	}
+	.button {
+		font-size: 1.1em;
+		background: #202d40;
+	}
+}
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media screen and (max-width: 39.9375em) {
+	.blog-post-row {
+		.card {
+			p {
+				padding-right: 5px;
+			}
+			.suggestions {
+				padding-left: 0;
+				padding-right: 0;
+				.suggested-post {
+					img {
+						width: 24vw;
+					}
+					h1 {
+						font-size: 1em;
+					}
+				}
+			}
+		}
+	}
+}
+
+

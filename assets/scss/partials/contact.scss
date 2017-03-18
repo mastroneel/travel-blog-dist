@@ -1,0 +1,46 @@
+.contact-row {
+	padding-top: 18vh;
+	h1 {
+		font-family: Harmattan;
+		font-size: 4em;
+		text-align: center;
+	}
+	hr {
+		width: 30vw;
+	}
+}
+
+form {
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+
+.your-message {
+	input {
+		padding-top: 2vh;
+		padding-bottom: 30vh;
+	}
+}
+
+.button {
+	margin-left: 22vw;
+	margin-bottom: 30vh;
+	font-size: 1.1em;
+	background: #202d40;
+}
+
+
+
+// *************
+// MEDIA QUERIES
+// *************
+
+@media screen and (max-width: 39.9375em) {
+	form {
+		padding-left: 4vw;
+		padding-right: 4vw;
+	}
+	.button {
+		margin-left: 7vw;
+	}
+}
